@@ -17,7 +17,7 @@ const Login = ({ onLogin }) => {
     setLoading(true);
 
     try {
-      const res = await axios.post(`${AUTH_URL}/login`, { username, password });
+      const res = await axios.post(`${AUTH_URL}/auth/login`, { username, password });
       const { token, user } = res.data;
       localStorage.setItem('token', token);
       localStorage.setItem('user', JSON.stringify(user));
