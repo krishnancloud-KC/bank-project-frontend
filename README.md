@@ -78,3 +78,4 @@ gcloud run deploy banking-frontend --source . --region asia-south1
 
 ---
 *GCP Bank App | krishnancloud-KC | April 2026 | Cost: FREE ₹0*
+
